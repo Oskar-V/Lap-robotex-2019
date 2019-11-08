@@ -29,7 +29,7 @@
 #define min_pulse       1300
 #define max_pulse       1700
 #define standstill      1500
-#define qti_threshold   50
+#define qti_threshold   150 // 150 if sensors are white, 400 if sensors are red
 
 /* Global variables ------------------------------------------ */
 Servo g_left_wheel;
