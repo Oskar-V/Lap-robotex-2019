@@ -81,13 +81,13 @@ void loop() {
       setWheels();
       setLed(HIGH, HIGH);
     } else if (readQti(left_qti)) {
-      setWheels(1400, 1400);
+      setWheels(1300, 1300);
       setLed(HIGH, LOW);
     } else if (readQti(right_qti)) {
-      setWheels(1600, 1600);
+      setWheels(1700, 1700);
       setLed(LOW, HIGH);
     } else {
-      setWheels(1600, 1400);
+      setWheels(1700, 1300);
       setLed(LOW, LOW);
     }
 
